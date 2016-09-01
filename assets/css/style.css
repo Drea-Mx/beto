@@ -1,0 +1,101 @@
+body, ul, li, h1, h2, h3, h4, h5, a {
+    margin: 0;
+    padding: 0;
+}
+.clearfix {
+  overflow: auto;
+}
+
+li {
+    list-style: none;
+}
+body {
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    background: white;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+ul.secciones {
+    color: #95989A;
+    font-size: 2em;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 30px;
+    transform: translateY(-50%);
+}
+
+.arrow-left {
+    position: absolute;
+    right: 10px;
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-right:10px solid #3B3B3B; 
+}
+
+.body {
+    position: absolute;
+    right: 0;
+    width: 85%;
+    height: 100vh;
+}
+
+section.yo {
+    background: url(../img/yo-bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+.center {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+section.yo img {
+    max-width: 200px;
+}
+.container-top {
+    width: 100%;
+    margin: 75px auto;
+    padding-bottom: 75px;
+}
+.curly-left {
+    width: 5%;
+    float: left;
+}
+.curly-left img {
+    width: 100%;
+}
+.text-top {
+    margin-top: 0;
+    width: 90%;
+    float: left;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.curly-right {
+    width: 5%;
+    float: left;
+}
+.curly-right img {
+    width: 100%;
+}
