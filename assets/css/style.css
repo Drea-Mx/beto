@@ -67,15 +67,15 @@ section.yo {
 .center {
     max-width: 700px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 section.yo img {
-    max-width: 200px;
+    max-width: 180px;
 }
 .container-top {
     width: 100%;
-    margin: 75px auto;
+    margin: 50px auto;
     padding-bottom: 75px;
 }
 .curly-left {
@@ -98,4 +98,66 @@ section.yo img {
 }
 .curly-right img {
     width: 100%;
+}
+section.memento {
+    margin-top: -2px;
+    background: url(../img/memento-bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    text-align: center;
+    color: white;
+}
+section.memento .left-text {
+    text-align: right;
+    float: left;
+    display: inline-block;
+    width: 50%;
+    padding: 150px 40px 50px 60px;
+    box-sizing: border-box;
+}
+section.memento .right-text {
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+    padding: 150px 60px 50px 40px;
+    box-sizing: border-box;
+}
+section.memento h2 {
+    font-size: 2.5em;
+    font-weight: 100;
+}
+section.memento .line {
+    max-width: 600px;
+    border: solid 2px white;
+    margin: 0 auto 50px;
+}
+
+.center-text {
+    margin-bottom: 50px;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.box {
+    padding: 0 50px;
+    box-sizing: border-box;
+    width: 33.3333333%;
+    float: left;
+    height: 150px;
+}
+.box1 {
+    background: url(../img/time-bg.png);
+}
+.box2 {
+    background: url(../img/bell-bg.png);
+}
+.box3 {
+    background: url(../img/right-bg.png);
+}
+.box h2 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
