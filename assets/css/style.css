@@ -1,4 +1,4 @@
-body, ul, li, h1, h2, h3, h4, h5, a {
+body, ul, li, h1, h2, h3, h4, h5, a, img {
     margin: 0;
     padding: 0;
 }
@@ -38,11 +38,11 @@ ul.secciones {
 .arrow-left {
     position: absolute;
     right: 10px;
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent; 
-    border-right:10px solid #3B3B3B; 
+    border-bottom: 10px solid transparent;
+    border-right:10px solid #3B3B3B;
 }
 
 .body {
@@ -133,6 +133,7 @@ section.memento .line {
     max-width: 600px;
     border: solid 2px white;
     margin: 0 auto 50px;
+    box-sizing: border-box;
 }
 
 .center-text {
@@ -160,4 +161,31 @@ section.memento .line {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+section.metas {
+    background: url(../img/metas-bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+section.metas .lead {
+  background: white;
+  padding: 10px;
+  color: #95989A;
+  font-size: 3em;
+}
+.imagenes-metas {
+  margin: 50px auto;
+  max-width: 40%;
+  border: solid 2px white;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 0em !important;
+}
+.imagenes-metas img {
+  width: 50%;
+  padding: 0;
+  margin: 0;
 }
